@@ -42,7 +42,7 @@ let API_ROOT = "https://api.github.com"
 
 let myProfileURL = API_ROOT + "/users/joalbright"
 
-let users: [[String:AnyObject?]] = [
+var users: [[String:AnyObject?]] = [
     
     [
         
@@ -79,4 +79,55 @@ let users: [[String:AnyObject?]] = [
     ]
     
 ]
+
+
+class GitHubRequest: NSObject {
+    
+    class func requestUserInfo(username: String, completion: (responseInfo:AnyObject?) -> ()) {
+        
+        let userURL = API_ROOT + "/users/" + username
+        
+        print(userURL)
+        
+        if let url = NSURL(string: userURL) {
+            
+            let request = NSURLRequest(URL: url)
+            
+            let task = NSURLSession.sharedSession().dataTaskWithRequest(request, completionHandler: { (data, response, error) -> Void in
+                
+                if let data = data {
+                    
+                    do {
+                        
+                        let info = try NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers)
+                        
+                        completion(responseInfo: info)
+                        
+                        print(info)
+                        
+                    } catch {
+                        
+                        print(error)
+                        
+                    }
+                }
+                
+            })
+            
+            task.resume()
+ 
+//         print(data)
+            
+        }
+        
+    }
+    
+    class func request(info: [String:AnyObject], completion: (responseInfo: AnyObject?) -> ()) {
+        
+        
+        
+    }
+    
+}
+
 

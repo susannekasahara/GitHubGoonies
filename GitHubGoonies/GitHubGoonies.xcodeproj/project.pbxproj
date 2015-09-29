@@ -14,6 +14,8 @@
 		826B99FF1BB9BBBC00334C7C /* GooniesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826B99FE1BB9BBBC00334C7C /* GooniesTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		826B9A011BB9BC2300334C7C /* Goonies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826B9A001BB9BC2300334C7C /* Goonies.swift */; settings = {ASSET_TAGS = (); }; };
 		826B9A031BB9C72600334C7C /* GoonieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826B9A021BB9C72600334C7C /* GoonieTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		826B9A051BBACB7900334C7C /* GoonieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826B9A041BBACB7900334C7C /* GoonieDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		826B9A071BBAE53900334C7C /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826B9A061BBAE53900334C7C /* CreateViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		826B99FE1BB9BBBC00334C7C /* GooniesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooniesTableViewController.swift; sourceTree = "<group>"; };
 		826B9A001BB9BC2300334C7C /* Goonies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goonies.swift; sourceTree = "<group>"; };
 		826B9A021BB9C72600334C7C /* GoonieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoonieTableViewCell.swift; sourceTree = "<group>"; };
+		826B9A041BBACB7900334C7C /* GoonieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoonieDetailViewController.swift; sourceTree = "<group>"; };
+		826B9A061BBAE53900334C7C /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		827155941BBB132400700E48 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 		826B99EB1BB9B78B00334C7C /* GitHubGoonies */ = {
 			isa = PBXGroup;
 			children = (
+				827155941BBB132400700E48 /* MyPlayground.playground */,
 				826B99FE1BB9BBBC00334C7C /* GooniesTableViewController.swift */,
 				826B99EC1BB9B78B00334C7C /* AppDelegate.swift */,
 				826B99F01BB9B78B00334C7C /* Main.storyboard */,
@@ -66,6 +72,8 @@
 				826B99F51BB9B78B00334C7C /* LaunchScreen.storyboard */,
 				826B99F81BB9B78B00334C7C /* Info.plist */,
 				826B9A001BB9BC2300334C7C /* Goonies.swift */,
+				826B9A041BBACB7900334C7C /* GoonieDetailViewController.swift */,
+				826B9A061BBAE53900334C7C /* CreateViewController.swift */,
 			);
 			path = GitHubGoonies;
 			sourceTree = "<group>";
@@ -142,6 +150,8 @@
 			files = (
 				826B9A031BB9C72600334C7C /* GoonieTableViewCell.swift in Sources */,
 				826B9A011BB9BC2300334C7C /* Goonies.swift in Sources */,
+				826B9A071BBAE53900334C7C /* CreateViewController.swift in Sources */,
+				826B9A051BBACB7900334C7C /* GoonieDetailViewController.swift in Sources */,
 				826B99FF1BB9BBBC00334C7C /* GooniesTableViewController.swift in Sources */,
 				826B99ED1BB9B78B00334C7C /* AppDelegate.swift in Sources */,
 			);
@@ -291,6 +301,7 @@
 				826B99FD1BB9B78B00334C7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
