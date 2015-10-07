@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "440C6BD9A7C535D8CC9BF8CBF76769E6966689D1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "440C6BD9A7C535D8CC9BF8CBF76769E6966689D1" : 0,
+    "CA39AE42DA6FCA49972881DFFB67CBF80F3A8B62" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BCFAF3FC-5A35-488D-A92F-CB5BB8E29C05",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "440C6BD9A7C535D8CC9BF8CBF76769E6966689D1" : "GitHubGoonies\/",
+    "CA39AE42DA6FCA49972881DFFB67CBF80F3A8B62" : "SimpleApps\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GitHubGoonies",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GitHubGoonies\/GitHubGoonies.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/susannekasahara\/GitHubGoonies.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "440C6BD9A7C535D8CC9BF8CBF76769E6966689D1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/susannekasahara\/SimpleApps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CA39AE42DA6FCA49972881DFFB67CBF80F3A8B62"
+    }
+  ]
+}
