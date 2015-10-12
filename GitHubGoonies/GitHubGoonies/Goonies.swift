@@ -8,7 +8,6 @@
 
 import Foundation
 
-// new stuff
 
 // Normal
 
@@ -17,6 +16,10 @@ import Foundation
 // add a plus button to the top right of the navigationbar on the Goonies view
 // add a new view controller to storyboard below the Goonies view controller
 // connect the plus button with a present segue
+
+
+
+
 
 //Hard
 
